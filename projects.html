@@ -1,49 +1,257 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
+
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Projects</title>
-  <link rel="stylesheet" href="style.css">
+
+  <meta name="viewport"
+        content="width=device-width, initial-scale=1.0">
+
+  <meta name="description"
+        content="Projects created by Subhani using accessible and responsive web technologies.">
+
+  <title>Projects | Subhani</title>
+
+  <link rel="stylesheet"
+        href="style.css">
+
 </head>
+
 
 <body>
 
-<header>
-  <h1>Projects</h1>
+<a class="skip-link"
+   href="#main-content">
 
-  <nav aria-label="Main Navigation">
-    <ul>
-      <li><a href="index.html">Home</a></li>
-      <li><a href="about.html">About</a></li>
-      <li><a href="projects.html">Projects</a></li>
-      <li><a href="contact.html">Contact</a></li>
-    </ul>
-  </nav>
+  Skip to main content
+
+</a>
+
+
+<header class="site-header">
+
+  <div class="container nav-wrap">
+
+    <a class="brand"
+       href="index.html"
+       aria-label="Subhani home">
+
+      <span class="brand-mark"
+            aria-hidden="true">
+
+        S
+
+      </span>
+
+      <span>
+        Subhani
+      </span>
+
+    </a>
+
+
+    <nav aria-label="Main Navigation">
+
+      <ul class="nav-list">
+
+        <li>
+          <a href="index.html">
+            Home
+          </a>
+        </li>
+
+        <li>
+          <a href="about.html">
+            About
+          </a>
+        </li>
+
+        <li>
+          <a class="active"
+             href="projects.html"
+             aria-current="page">
+
+            Projects
+
+          </a>
+        </li>
+
+        <li>
+          <a href="contact.html">
+            Contact
+          </a>
+        </li>
+
+      </ul>
+
+    </nav>
+
+  </div>
+
 </header>
 
-<main>
 
-  <section aria-labelledby="project-list">
-    <h2 id="project-list">My Work</h2>
+<main id="main-content">
 
-    <article>
-      <h3>Portfolio Website</h3>
-      <p>Accessible portfolio website built with semantic HTML5.</p>
+
+  <section class="page-hero container"
+           aria-labelledby="page-title">
+
+    <p class="eyebrow">
+      MY WORK
+    </p>
+
+    <h1 id="page-title">
+
+      Featured
+      <span>Projects</span>
+
+    </h1>
+
+    <p>
+
+      A selection of projects demonstrating
+      semantic structure, accessibility and
+      modern web development.
+
+    </p>
+
+  </section>
+
+
+  <section class="project-grid container"
+           aria-label="Project list">
+
+
+    <article class="project-card">
+
+      <div class="project-number"
+           aria-hidden="true">
+
+        01
+
+      </div>
+
+      <p class="tag">
+        HTML5 • CSS3 • WCAG
+      </p>
+
+      <h2>
+        Accessible Portfolio Website
+      </h2>
+
+      <p>
+
+        A responsive personal portfolio designed
+        with semantic HTML, accessible navigation,
+        visible focus states and a keyboard-friendly
+        contact form.
+
+      </p>
+
+      <a href="index.html"
+         class="text-link">
+
+        Explore project →
+
+      </a>
+
     </article>
 
-    <article>
-      <h3>Weather Dashboard</h3>
-      <p>Real-time weather app using REST APIs.</p>
+
+    <article class="project-card">
+
+      <div class="project-number"
+           aria-hidden="true">
+
+        02
+
+      </div>
+
+      <p class="tag">
+        REST API • JavaScript
+      </p>
+
+      <h2>
+        Weather Dashboard
+      </h2>
+
+      <p>
+
+        A real-time dashboard concept that retrieves
+        weather information through a REST API and
+        presents it in a clear, user-friendly interface.
+
+      </p>
+
+      <a href="contact.html"
+         class="text-link">
+
+        Discuss the project →
+
+      </a>
+
     </article>
+
+
+    <article class="project-card">
+
+      <div class="project-number"
+           aria-hidden="true">
+
+        03
+
+      </div>
+
+      <p class="tag">
+        Responsive UI • CSS3
+      </p>
+
+      <h2>
+        Responsive Web Interface
+      </h2>
+
+      <p>
+
+        A mobile-first interface using flexible
+        layouts, modern CSS and accessible interaction
+        patterns for different screen sizes.
+
+      </p>
+
+      <a href="contact.html"
+         class="text-link">
+
+        Start a conversation →
+
+      </a>
+
+    </article>
+
 
   </section>
 
 </main>
 
-<footer>
-  <p>&copy; 2026 My Portfolio</p>
+
+<footer class="site-footer">
+
+  <div class="container footer-wrap">
+
+    <p>
+      © 2026 Subhani.
+      Built with semantic HTML5 & accessible design.
+    </p>
+
+    <a href="index.html">
+      Home ↑
+    </a>
+
+  </div>
+
 </footer>
+
 
 </body>
 </html>
